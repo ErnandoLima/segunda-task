@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+    <header class="header">
+         <div class="logo"> 
+            <img src="logoes.png" class="logoes" id="logoes" width="100px" >
+            <img src="logodi.png" class="logodi" id="logodi" width="100px" >
+        </div>
+
+    </header>
+
+    <div>
+        <h1 id="titulo">Cadastro Fábrica de Software</h1>
+        <p id="subtitulo">Preencha o formulário para se inscrever na Fábrica de Software</p>
+        <br>
+
+    </div>
+    
+    <form> 
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">Telefone:</label>
+                <input type="telefone" name="telefone" id="telefone" placeholder="Telefone" required> 
+            </div>
+            <br>
+            <button class="botao">Enviar</button>
+            <br>
+
+        <fieldset</>
+
+    </form>
+    
+</body>
+</html>
